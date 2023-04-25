@@ -1,0 +1,21 @@
+$ git config --global user.name "Pavel"
+$ git config --global user.email astapenko.02042005@mail.ru
+$ mkdir Desktop/git_exe
+$ cd Desktop/git_exe
+$ git init
+$ git status
+$ mkdir hello.txt
+$ cd hello.txt
+$ git init
+$ touch hello.txt
+$ git status
+$ git add hello.txt
+$ git add -A
+$ git status
+$ git commit -m "Initial commit."
+$ git remote add origin https://github.com/NurikD/Exam-.git
+$ git push origin master
+$ git clone https://github.com/NurikD/Exam-.git
+$ git branch Nurlo
+$ git checkout Nurlo
+$ git merge Nurlo
